@@ -1,35 +1,42 @@
 /* style.css */
+
+/* Resetting some default styles to ensure consistent rendering */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Set the default font family for the entire page */
+    background-color: #f5f5f5; /* Set the background color for the entire page */
+    margin: 0; /* Remove default margin around the page */
+    padding: 0; /* Remove default padding around the page */
 }
 
+/* Styling for the header section at the top of the page */
 header {
-    background-color: #007BFF;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+    background-color: #007BFF; /* Set the background color for the header */
+    color: #fff; /* Set the text color for the header */
+    text-align: center; /* Center-align the header content */
+    padding: 20px; /* Add spacing around the header content */
 }
 
+/* Styling for the navigation menu (unordered list) */
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Remove bullet points for list items */
+    padding: 0; /* Remove default padding for the unordered list */
 }
 
+/* Styling for individual list items within the navigation menu */
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
 }
 
+/* Styling for sections (e.g., "About Me," "Resume," etc.) on the page */
 section {
-    padding: 20px;
+    padding: 20px; /* Add spacing around section content */
 }
 
+/* Styling for the footer section at the bottom of the page */
 footer {
-    background-color: #007BFF;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+    background-color: #007BFF; /* Set the background color for the footer */
+    color: #fff; /* Set the text color for the footer */
+    text-align: center; /* Center-align the footer content */
+    padding: 10px; /* Add spacing around the footer content */
 }
