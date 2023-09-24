@@ -3,15 +3,15 @@ f/* style.css */
 /* Resetting some default styles to ensure consistent rendering */
 body {
     font-family: Times New Roman, sans-serif; /* Set the default font family for the entire page */
-    background-color: #f9f7f7; /* Set the background color for the entire page */
+    background-color: #fcf8ec; /* Set the background color for the entire page */
     margin: 0; /* Remove default margin around the page */
     padding: 0; /* Remove default padding around the page */
 }
 
 /* Styling for the header section at the top of the page */
 header {
-    background-color: #dbe2ef; /* Set the background color for the header */
-    color: #112d4e; /* Set the text color for the header */
+    background-color: #87ceeb; /* Set the background color for the header */
+    color: #002f6c; /* Set the text color for the header */
     text-align: center; /* Center-align the header content */
     padding: 20px; /* Add spacing around the header content */
 }
@@ -35,8 +35,8 @@ section {
 
 /* Styling for the footer section at the bottom of the page */
 footer {
-    background-color: #dbe2ef; /* Set the background color for the footer */
-    color: #112d4e; /* Set the text color for the footer */
+    background-color: #87ceeb; /* Set the background color for the footer */
+    color: #002f6c; /* Set the text color for the footer */
     text-align: center; /* Center-align the footer content */
     padding: 10px; /* Add spacing around the footer content */
 }
