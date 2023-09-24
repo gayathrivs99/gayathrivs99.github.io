@@ -3,7 +3,7 @@
 /* Resetting some default styles to ensure consistent rendering */
 body {
     font-family: Arial, sans-serif; /* Set the default font family for the entire page */
-    background-color: #f5f5f5; /* Set the background color for the entire page */
+    background-color: #e6e8fa; /* Set the background color for the entire page */
     margin: 0; /* Remove default margin around the page */
     padding: 0; /* Remove default padding around the page */
 }
