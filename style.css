@@ -1,4 +1,4 @@
-/* style.css */
+f/* style.css */
 
 /* Resetting some default styles to ensure consistent rendering */
 body {
@@ -10,7 +10,7 @@ body {
 
 /* Styling for the header section at the top of the page */
 header {
-    background-color: #007BFF; /* Set the background color for the header */
+    background-color: #dbe2ef; /* Set the background color for the header */
     color: #112d4e; /* Set the text color for the header */
     text-align: center; /* Center-align the header content */
     padding: 20px; /* Add spacing around the header content */
@@ -35,7 +35,7 @@ section {
 
 /* Styling for the footer section at the bottom of the page */
 footer {
-    background-color: #f4a798; /* Set the background color for the footer */
+    background-color: #dbe2ef; /* Set the background color for the footer */
     color: #112d4e; /* Set the text color for the footer */
     text-align: center; /* Center-align the footer content */
     padding: 10px; /* Add spacing around the footer content */
