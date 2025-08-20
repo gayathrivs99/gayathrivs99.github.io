@@ -1,57 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- This will link to your CSS file, which we'll create shortly -->
-    <title>V. S. Gayathri - Academic and Personal Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>V. S. Gayathri — Academic & Personal Profile</title>
+  <meta name="description" content="V. S. Gayathri — Graduate student in Chemistry. Research interests, projects, and contact information." />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="V. S. Gayathri — Academic & Personal Profile" />
+  <meta property="og:description" content="Graduate student in Chemistry. Research interests, projects, and contact details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/github_profile_pic.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>V. S. Gayathri</h1>
-        <p>Academic Profile</p>
-    </header>
-    <nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="wrapper header-inner">
+      <div class="brand">
+        <h1 class="site-title">V. S. Gayathri</h1>
+        <p class="site-tagline">Academic Profile</p>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research Interests</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        </section>
-    <!-- Add a section for your profile picture -->
-    <section id="welcome">
-        <div id="profile-picture">
-            <img src="images/github_profile_pic.jpg" alt="Gayathri">
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Welcome / Hero -->
+    <section id="welcome" class="section hero">
+      <div class="wrapper hero-grid">
+        <figure class="profile">
+          <!-- Ensure this file exists: /images/github_profile_pic.jpg -->
+          <img src="images/github_profile_pic.jpg" alt="Portrait of V. S. Gayathri" />
+        </figure>
+        <div class="intro">
+          <h2>Welcome</h2>
+          <p>I am a graduate student in Chemistry, exploring intersections with biology and other interdisciplinary areas.</p>
         </div>
-        <div id="welcome-message">
-            <h2>Welcome</h2>
-            <p>I am a graduate student in Chemistry.</p>
-        </div>
+      </div>
     </section>
-            
-    </nav>
-    <section id="about">
+
+    <section id="about" class="section">
+      <div class="wrapper">
         <h2>About Me</h2>
-        <p> I recently graduated and am still in the early stages of my career. I'm passionate about chemistry, biology, and the interdisciplinary area. I am spending my time exploring the different fields within these disciplines for now.</p>
+        <p>I recently graduated and am in the early stages of my career. I’m passionate about chemistry, biology, and their interdisciplinary spaces. I’m currently exploring different fields within these disciplines to shape my research direction.</p>
+      </div>
     </section>
-    <section id="research">
+
+    <section id="research" class="section">
+      <div class="wrapper">
         <h2>Research</h2>
-        <p>Include your research background and any relevant details.</p>
+        <p>Summarize your research background, techniques you use, and areas of interest (e.g., catalysis, bioconjugation, materials, spectroscopy). You can also list relevant coursework, publications, and talks.</p>
+        <!-- Example list
+        <ul>
+          <li>Catalysis with manganese pincer complexes</li>
+          <li>Surface-functionalized catalysts for aqueous media</li>
+          <li>Spectroscopic methods: NMR, IR, UV/Vis</li>
+        </ul>
+        -->
+      </div>
     </section>
-    <section id="projects">
+
+    <section id="projects" class="section">
+      <div class="wrapper">
         <h2>Projects</h2>
-        <p>Include your previous projects and details.</p>
+        <div class="cards">
+          <!-- Duplicate a card block per project -->
+          <article class="card">
+            <h3>Project Title</h3>
+            <p>Short description of the project’s goal, your contributions, and outcomes (link to report or poster if available).</p>
+            <!-- <a class="button" href="#" target="_blank" rel="noopener">View More</a> -->
+          </article>
+          <!-- Add more cards as needed -->
+        </div>
+      </div>
     </section>
-    <section id="contact">
+
+    <section id="contact" class="section">
+      <div class="wrapper">
         <h2>Contact</h2>
-        <p>Phone no.: (+91)-6370610461</p>
-        </p>Email ID: vsgayathri2008@gmail.com</p>
-        </p>LinkedIn:</p>
-        </p>Adress: Flat no. EGC, Menhir Enclave, Kannothumchal, Thana, Kannur, Kerala, INDIA - 670012</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:vsgayathri2008@gmail.com">vsgayathri2008@gmail.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+916370610461">(+91) 63706 10461</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#" aria-label="LinkedIn profile (add your URL)">Add your profile URL</a></li>
+          <li><strong>Address:</strong> Flat No. EGC, Menhir Enclave, Kannothumchal, Thana, Kannur, Kerala, India — 670012</li>
+        </ul>
+        <!-- Consider privacy: you can remove phone/address if you prefer. -->
+      </div>
     </section>
-    <footer>
-        <p>&copy; 2023 V. S. Gayathri</p>
-    </footer>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2025 V. S. Gayathri</p>
+    </div>
+  </footer>
 </body>
 </html>
+
